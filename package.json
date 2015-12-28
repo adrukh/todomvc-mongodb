@@ -1,8 +1,11 @@
 {
   "name": "todomvc-angular",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "server.js", 
-  "main"         : "server.js",
+  "description": "Basic todo app",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies" : {
     "angular": "1.2.22",
     "todomvc-common": "~0.1.4",
@@ -13,8 +16,17 @@
     "method-override": "~2.1.2",
     "optimist": "*"
   },
+  "engines": {
+    "node": "0.12.7"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/GoogleCloudPlatform/todomvc-mongodb.git"
-  }
+    "url": "git://github.com/adrukh/todomvc-mongodb.git"
+  },
+  "keywords": [
+    "node",
+	"heroku",
+	"express"
+  ],
+  "license": "MIT"
 }
