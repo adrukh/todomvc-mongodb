@@ -7,12 +7,12 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "angular": "1.2.22",
+    "angular": "1.8.3",
     "todomvc-common": "~0.1.4",
-    "express": "4.14.0",
+    "express": "4.22.0",
     "mongoose": "4.3.6",
     "morgan": "~1.2.2",
-    "body-parser": "1.6.0",
+    "body-parser": "1.20.4",
     "method-override": "2.3.3",
     "optimist": "*"
   },
